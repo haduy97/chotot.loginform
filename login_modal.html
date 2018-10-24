@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+  <meta name="author" content="login">
+  
+	<!--Script-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    
+  <link rel="stylesheet" href="CSS/font-awesome.css">
+  <link rel="stylesheet" href="CSS/font-awesome.min.css">
+  <link href="CSS/bootstrap.min.css" rel="stylesheet" />
+  <link href="style-modal.css" rel="stylesheet" type="text/css" media="screen,print" />
+  
+</head>
+
+<body>
+  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#Modal">Login</button>
+
+  <div class="modal fade" id="Modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="text"><p>Or</p></div>
+        <div class="modal-header">
+          <div class="form-group">
+            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+            <button type="button" class="btn btn-secondary btn-block"><i class="fa fa-facebook-official"></i> Log in with Facebook</button>
+          </div>
+        </div>
+        <form>
+          <div class="modal-body">                
+              <!--Nhập username-->
+              <div class="form-group">
+                <input type="text" class="form-control" id="username" placeholder="User name">
+                <i class="fa fa-user-o"></i>
+              </div>
+              <!--Nhập password-->
+              <div class="form-group">
+                <input type="text" class="form-control" id="password" placeholder="Password">
+                <i class="fa fa-lock"></i>
+              </div>
+              <!--Login-->
+              <button type="button" class="btn btn-primary btn-block">Login</button>    
+          </div>
+          <div class="modal-footer">
+            <div class="form-group">
+              <div class="text-left"><a href="#" class="forget">Forgot your password?</a></div>
+              <br/>
+              <div class="text-center">Don't have an account? <a href="#" class="sign-up">Sign up</a></div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

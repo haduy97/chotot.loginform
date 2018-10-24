@@ -1,0 +1,64 @@
+.btn-primary{
+    background: #138DCA;
+}
+.btn-secondary{
+    position: relative;
+    color:white;
+    background-color: #3b5998;
+    margin-top:40px;
+}
+.btn-secondary:hover{
+    background: rgb(47, 134, 247);
+}
+.btn-info{
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.form-group{
+    width:100%;
+}
+.body{
+    font-family: icon-font;
+}
+.btn-primary:hover{
+    background: rgb(47, 134, 247);
+}
+.fa-facebook-official{
+    font-size: 22px;
+    position: absolute;
+    left:20px;
+}
+.text{
+    font-family: icon-font;
+    position: absolute;
+    top: 115px;
+    left:225px;
+    text-align: center;
+    color: lightgray;
+    width: 50px;
+    font-size:15px;
+    font-weight: bold;
+    background-color: #FFFFFF;
+}
+.fa-user-o{
+    color: lightgray;
+    font-size:20px;
+    right:25px;
+    top:24px;
+    width:21px;
+    height:23px;
+    text-align: center;
+    background: #FFFFFF;
+    position: absolute;
+}
+.fa-lock{
+    position: absolute;
+    color: lightgray;
+    font-size:24px;
+    width:21px;
+    height:23px;
+    right:24px;
+    top:78px;
+    text-align: center;
+    background: #FFFFFF;
+}
